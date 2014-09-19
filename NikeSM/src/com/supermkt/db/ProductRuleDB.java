@@ -5,6 +5,12 @@ import java.util.List;
 
 import com.supermkt.entity.ProductPrice;
 
+/**
+ * This class is in in memory simulation of database storing pricing details
+ * 
+ * @author Gautam
+ *
+ */
 public class ProductRuleDB {
 	
 	private static ProductRuleDB productRuleDB = null;

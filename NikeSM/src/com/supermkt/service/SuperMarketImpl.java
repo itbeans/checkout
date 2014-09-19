@@ -25,7 +25,8 @@ public class SuperMarketImpl implements SuperMarket {
 	/**
 	 * 
 	 * @param items a String having items ordered - e.g. ABBACBABBAB
-	 * @throws ProductUndefinedException
+	 * @throws ProductUndefinedException Exception thrown when database
+	 * 				does not contain specified product/item
 	 */
 	@Override
 	public int checkout(String items) {
@@ -85,6 +86,13 @@ public class SuperMarketImpl implements SuperMarket {
 		return itemTotal;
 	}
 
+	/**
+	 * @param product item/product name
+	 * @param price   item/product price
+	 * @param specialPriceQuantity Quantity at special price applicable - if zero, then not applicable
+	 * @param specialPrice Special price overrides the per unit price
+	 * 
+	 */
 	@Override
 	public void addPriceRule(String product, int price,
 								int specialPriceQuantity, int specialPrice) {

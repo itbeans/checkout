@@ -7,6 +7,12 @@ import org.junit.Test;
 import com.supermkt.dao.PriceRuleDao;
 import com.supermkt.dao.PriceRuleDaoImpl;
 
+/**
+ * JUnit test case for testing PriceRuleDAO
+ * 
+ * @author Gautam
+ *
+ */
 public class PriceRuleDaoTest {
 
 	PriceRuleDao priceRuleDao;
