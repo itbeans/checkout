@@ -1,5 +1,7 @@
 
- 
+Requirements:
+=============
+
 Review the following technical problem. There are few basic
 requirements and inputs and outputs but the design is completely
 open-ended. The solution should be delivered via a git repo (preferred) or zip file.
@@ -34,7 +36,8 @@ public interface Supermarket {
 
 
 
-
+Solution:
+=========
 
 checkout
 ========
